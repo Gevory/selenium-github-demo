@@ -13,7 +13,7 @@ public class TestGoogle {
         FirefoxDriverManager.getInstance().setup();
         ChromeOptions options = new ChromeOptions();
         FirefoxOptions opt = new FirefoxOptions();
-        //opt.
+
         WebDriver driver = new FirefoxDriver(opt);
     }
 }
